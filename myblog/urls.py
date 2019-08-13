@@ -16,9 +16,14 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from mainsite.views import homepage,showpost
+from mysite.views import about, listing,disp_detail, index1
 
 urlpatterns = [
     url(r'^$', homepage),
     url(r'^post/(\w+)$', showpost),
     url(r'^admin/', admin.site.urls),
+    url(r'^about/', about),
+    url(r'^list/([0-9a-zA-Z]+)/$', disp_detail),
+    url(r'^list/', listing),
+    url(r'^1$', index1),
 ]
