@@ -17,9 +17,13 @@ from django.conf.urls import url
 from django.contrib import admin
 from mainsite.views import homepage,showpost
 from mysite.views import about, listing,disp_detail, index1
+from mymodel import views
 
 urlpatterns = [
+
     url(r'^$', homepage),
+    url(r'^m$', views.index),
+    url(r'^detail/(\d+)$',views.detail,name='detail-url'),
     url(r'^post/(\w+)$', showpost),
     url(r'^admin/', admin.site.urls),
     url(r'^about/', about),

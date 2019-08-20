@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f2d9860-91c3-418d-99a9-4966f61e2d6f" name="Default" comment="">
+    <list default="true" id="1f2d9860-91c3-418d-99a9-4966f61e2d6f" name="Default" comment="增加MTV章节内容，实现mysite应用加入到项目中">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainsite/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymodel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymodel/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymodel/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymodel/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymodel/migrations/0002_auto_20190820_0912.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymodel/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymodel/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymodel/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymodel/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base_m.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/footer_m.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/header_m.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index_m.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,17 +52,12 @@
       <GitPushTagMode />
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="469" />
-    <option name="y" value="7" />
-    <option name="width" value="901" />
-    <option name="height" value="745" />
-  </component>
   <component name="ProjectId" id="1PRRP9Ppz0CC0YgfWjeWENa0USM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -131,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564846232986</updated>
-      <workItem from="1565834902476" duration="61000" />
+      <workItem from="1565834902476" duration="15790000" />
     </task>
     <task id="LOCAL-00001" summary="第一次添加模板页">
       <created>1565055219139</created>
@@ -161,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565712839617</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加MTV章节内容，实现mysite应用加入到项目中">
+      <created>1565835030313</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565835030313</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -188,6 +209,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一次添加模板页" />
     <MESSAGE value="使用bootstrap样式风格" />
     <MESSAGE value="增加MTV章节内容，实现mysite应用加入到项目中" />
